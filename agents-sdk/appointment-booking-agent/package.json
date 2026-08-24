@@ -1,0 +1,15 @@
+{
+  "name": "appointment-booking-agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.112.3",
+    "openai": "7.4.0"
+  },
+  "devDependencies": {
+    "supabase": "^2.115.0"
+  }
+}
